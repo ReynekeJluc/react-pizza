@@ -1,0 +1,15 @@
+@import url(./help_styles/default_styles.scss);
+@import url(./help_styles/VARIABLES.scss);
+@import url(./help_styles/fonts.scss);
+
+body {
+	background: var(--bg-color);
+	font-size: 16px;
+	font-family: 'Proxima Nova', sans-serif;
+}
+
+.wrapper {
+	background: #fff;
+	border-radius: 10px;
+	margin: 3vh 2vw;
+}

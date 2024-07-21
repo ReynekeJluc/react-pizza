@@ -1,0 +1,46 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3vh var(--padding-sides);
+	border-bottom: 2px solid var(--card-gray);
+	.logo_block {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 15px;
+		cursor: pointer;
+		h1 {
+			font-size: 24px;
+			font-weight: 800;
+		}
+		p {
+			margin-top: 3px;
+			color: var(--gray);
+		}
+	}
+	.cart_block {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 15px;
+		color: #fff;
+		font-weight: 700;
+		padding: 1.5vh 2vw;
+		border-radius: 30px;
+		background: var(--button-active);
+		cursor: pointer;
+		.divider {
+			height: 2.5vh;
+			width: 1px;
+			background: #fff;
+			opacity: 25%;
+		}
+		.counter_block {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			gap: 7px;
+		}
+	}
+}
