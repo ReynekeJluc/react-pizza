@@ -1,0 +1,36 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4vh var(--padding-sides);
+	.left_block {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 1.5vw;
+		.filter_link {
+			color: var(--nav-default);
+			font-size: 16px;
+			font-weight: 700;
+			background: var(--card-gray);
+			padding: 1.5vh 2vw;
+			border-radius: 30px;
+		}
+	}
+	.right_block {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-size: 14px;
+		font-weight: 700;
+		cursor: pointer;
+		p {
+			margin: 0 0.5vw;
+		}
+		button {
+			font-size: 14px;
+			text-decoration: underline;
+			color: var(--button-active);
+		}
+	}
+}

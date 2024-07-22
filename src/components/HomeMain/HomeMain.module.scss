@@ -1,0 +1,14 @@
+main {
+	padding: 0 var(--padding-sides);
+	h2 {
+		font-size: 32px;
+		font-weight: 700;
+		margin-bottom: 4vh;
+	}
+	.content_block {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		gap: 2vw;
+	}
+}
